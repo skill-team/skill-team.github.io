@@ -1,1 +1,0 @@
-import{j as s}from"./iframe-DATgQ8vN.js";const t="_label_j9uv0_4",n={label:t};function o({children:e}){return s.jsx("div",{className:n.label,children:e})}o.__docgenInfo={description:"Мелкий разделитель-подпись внутри списка меню, напр. «УПРАВЛЕНИЕ».",methods:[],displayName:"MenuSectionLabel",props:{children:{required:!0,tsType:{name:"ReactNode"},description:""}}};export{o as M};
