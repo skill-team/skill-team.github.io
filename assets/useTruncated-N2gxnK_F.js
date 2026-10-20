@@ -1,0 +1,1 @@
+import{r as s}from"./iframe-DATgQ8vN.js";function l(c,n=[],o="x"){const[u,i]=s.useState(!1);return s.useLayoutEffect(()=>{const e=c();if(!e)return;const t=()=>i(o==="x"?e.scrollWidth>e.clientWidth:e.scrollHeight>e.clientHeight+1);t();const r=new ResizeObserver(t);return r.observe(e),()=>r.disconnect()},n),u}export{l as u};
