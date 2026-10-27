@@ -1,0 +1,8 @@
+import{j as e,S as m,Q as p}from"./iframe-DF43zbcH.js";import{M as n}from"./MenuItem-Bgf-DXvz.js";import{M as d}from"./MenuSectionLabel-C6Gstk4b.js";import"./preload-helper-C1FmrZbK.js";import"./Bulb-BrRgZUCx.js";const g=208,f={title:"UI Kit/Навигация/Sidebar/MenuSectionLabel",id:"ui-kit-menusectionlabel",component:d,tags:["autodocs"],args:{children:"Управление"},argTypes:{children:{control:"text",description:"Текст подписи — выводится заглавными"}},decorators:[o=>e.jsx("div",{style:{width:g,background:"var(--menu-surface-panel)",borderRadius:"var(--radius-l)",display:"flex",flexDirection:"column",gap:"var(--space-2)"},children:e.jsx(o,{})})],parameters:{docs:{description:{component:"Мелкая подпись-разделитель внутри списка меню, например «УПРАВЛЕНИЕ». Цвет — `--menu-text-section-label`."}}}},r={},a={name:"В списке",render:o=>e.jsxs(e.Fragment,{children:[e.jsx(n,{label:"FAQ",icon:e.jsx(m,{})}),e.jsx(d,{...o}),e.jsx(n,{label:"Админ панель",icon:e.jsx(p,{}),badge:"9+"})]})},y=["Playground","ВСписке"];var s,t,c;r.parameters={...r.parameters,docs:{...(s=r.parameters)==null?void 0:s.docs,source:{originalSource:"{}",...(c=(t=r.parameters)==null?void 0:t.docs)==null?void 0:c.source}}};var u,i,l;a.parameters={...a.parameters,docs:{...(u=a.parameters)==null?void 0:u.docs,source:{originalSource:`{
+  name: "В списке",
+  render: args => <>
+      <MenuItem label="FAQ" icon={<IconHelpPolygon />} />
+      <MenuSectionLabel {...args} />
+      <MenuItem label="Админ панель" icon={<IconPanel />} badge="9+" />
+    </>
+}`,...(l=(i=a.parameters)==null?void 0:i.docs)==null?void 0:l.source}}};export{r as Playground,y as __namedExportsOrder,f as default,a as ВСписке};
